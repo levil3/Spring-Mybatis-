@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+    <!-- 别名设置 -->
+    <typeAliases>
+        <!--  通过package标签，让包下所有的类定义别名，默认为类名，不区分大小写 resultType不需要再索引类路径，只需要输入类名-->
+        <package name="org.example.bean"/>
+    </typeAliases>
+</configuration>
